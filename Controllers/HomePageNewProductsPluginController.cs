@@ -1,11 +1,7 @@
 ﻿using Nop.Services.Catalog;
 using Nop.Services.Configuration;
 using Nop.Web.Framework.Controllers;
-using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Web.Mvc;
 using Nop.Plugin.Widgets.HomePageNewProductsPlugin.Common;
 using Nop.Plugin.Widgets.HomePageNewProductsPlugin.Models;

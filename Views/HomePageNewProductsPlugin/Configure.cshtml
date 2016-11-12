@@ -1,0 +1,52 @@
+﻿@model Nop.Plugin.Widgets.HomePageNewProductsPlugin.Models.HomePageNewProductsConfigureModel
+
+@{
+    ViewBag.Title = "Configure";
+    Layout = "";
+}
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">       
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            @Html.LabelFor(model => model.WidgetZone, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownListFor(m => m.WidgetZone, new[]
+                    {
+                        new SelectListItem() {Text = "home_page_top"},
+                        new SelectListItem() {Text = "home_page_before_categories"},
+                        new SelectListItem() {Text = "home_page_before_products"},
+                        new SelectListItem() {Text = "home_page_before_news"},
+                        new SelectListItem() {Text = "home_page_before_poll"},
+                        new SelectListItem() {Text = "home_page_bottom"},
+
+
+                    }, "Choose Widget Zone")
+                
+
+                @Html.ValidationMessageFor(model => model.WidgetZone, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.ProductsToShow, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(model => model.ProductsToShow, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.ProductsToShow, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Configure" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+
+

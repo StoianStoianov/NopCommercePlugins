@@ -1,0 +1,12 @@
+C:\Users\stoia\Desktop\NopCommerce\Plugins\Nop.Plugin.Widgets.HomePageNewProductsPlugin\obj\Debug\Nop.Plugin.Widgets.HomePageNewProductsPlugin.csprojResolveAssemblyReference.cache
+C:\Users\stoia\Desktop\NopCommerce\Presentation\Nop.Web\Plugins\Widgets.HomePageNewProductsPlugin\web.config
+C:\Users\stoia\Desktop\NopCommerce\Presentation\Nop.Web\Plugins\Widgets.HomePageNewProductsPlugin\Views\HomePageNewProductsPlugin\GetNewestProducts.cshtml
+C:\Users\stoia\Desktop\NopCommerce\Presentation\Nop.Web\Plugins\Widgets.HomePageNewProductsPlugin\Views\HomePageNewProductsPlugin\Configure.cshtml
+C:\Users\stoia\Desktop\NopCommerce\Presentation\Nop.Web\Plugins\Widgets.HomePageNewProductsPlugin\Nop.Plugin.Widgets.HomePageNewProductsPlugin.dll.config
+C:\Users\stoia\Desktop\NopCommerce\Presentation\Nop.Web\Plugins\Widgets.HomePageNewProductsPlugin\Nop.Plugin.Widgets.HomePageNewProductsPlugin.dll
+C:\Users\stoia\Desktop\NopCommerce\Presentation\Nop.Web\Plugins\Widgets.HomePageNewProductsPlugin\Nop.Plugin.Widgets.HomePageNewProductsPlugin.pdb
+C:\Users\stoia\Desktop\NopCommerce\Plugins\Nop.Plugin.Widgets.HomePageNewProductsPlugin\obj\Debug\Nop.Plugin.Widgets.HomePageNewProductsPlugin.dll
+C:\Users\stoia\Desktop\NopCommerce\Plugins\Nop.Plugin.Widgets.HomePageNewProductsPlugin\obj\Debug\Nop.Plugin.Widgets.HomePageNewProductsPlugin.pdb
+C:\Users\stoia\Desktop\NopCommerce\Presentation\Nop.Web\Plugins\Widgets.HomePageNewProductsPlugin\Description.txt
+C:\Users\stoia\Desktop\NopCommerce\Presentation\Nop.Web\Plugins\Widgets.HomePageNewProductsPlugin\Views\ProductsExtended\GetNewestProducts.cshtml
+C:\Users\stoia\Desktop\NopCommerce\Presentation\Nop.Web\Plugins\Widgets.HomePageNewProductsPlugin\Views\ProductsExtended\_ProductBox.cshtml
